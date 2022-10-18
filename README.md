@@ -1,6 +1,14 @@
 # Cordova FFMPEG Plugin
 
-Simple plugin that binds mobile ffmpeg to execute ffmpeg commands
+Simple plugin that binds ffmpeg-kit to execute ffmpeg commands
+
+## Demo
+A demo application for the [plugin](https://github.com/MaximBelov/cordova-plugin-ffmpeg-lab).
+
+## Ionic
+https://www.npmjs.com/package/awesome-cordova-plugins-chooser
+
+    $ npm i awesome-cordova-plugins-chooser
 
 ## Using
 
@@ -15,7 +23,7 @@ make sure you have cocoapods **On MacOS**
 Install the plugin
 
     $ cd hello
-    $ cordova plugin add https://github.com/adminy/cordova-plugin-ffmpeg.git
+    $ cordova plugin add https://github.com/MaximBelov/cordova-plugin-ffmpeg.git
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
