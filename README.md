@@ -6,9 +6,16 @@ Simple plugin that binds ffmpeg-kit to execute ffmpeg commands
 A demo application for the [plugin](https://github.com/MaximBelov/cordova-plugin-ffmpeg-lab).
 
 ## Ionic
-https://www.npmjs.com/package/awesome-cordova-plugins-chooser
 
-    $ npm i awesome-cordova-plugins-chooser
+### Dev
+https://www.npmjs.com/package/awesome-cordova-plugins-ffmpeg
+
+    $ npm i awesome-cordova-plugins-ffmpeg
+
+### Prod
+https://www.npmjs.com/package/@awesome-cordova-plugins/ffmpeg
+
+    $ npm i @awesome-cordova-plugins/ffmpeg
 
 ## Using
 
