@@ -22,7 +22,7 @@ make sure you have cocoapods **On MacOS**
 Install the plugin
 
     $ cd hello
-    $ cordova plugin add https://github.com/MaximBelov/cordova-plugin-ffmpeg.git
+    $ cordova plugin add cordova-plugin-ffmpeg
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
