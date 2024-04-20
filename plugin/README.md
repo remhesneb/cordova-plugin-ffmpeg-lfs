@@ -3,7 +3,7 @@
 Simple plugin that binds ffmpeg-kit to execute ffmpeg commands
 
 ## Demo
-A demo application for the [plugin](https://github.com/MaximBelov/cordova-plugin-ffmpeg-lab).
+[Demo application](https://github.com/MaximBelov/cordova-plugin-ffmpeg/tree/master/example).
 
 ## Ionic
 
