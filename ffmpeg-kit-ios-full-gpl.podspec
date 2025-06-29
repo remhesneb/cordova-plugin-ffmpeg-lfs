@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
     s.author           = { 'remhesneb' => 'https://github.com/remhesneb' }
     s.platform         = :ios, '12.1'
     s.static_framework = true
+    s.source           = { :http => 'https://github.com/remhesneb/ffmpeg-kit-ios-full-gpl/archive/refs/tags/latest.zip' }
   end
