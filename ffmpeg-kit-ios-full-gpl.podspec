@@ -8,16 +8,15 @@ Pod::Spec.new do |s|
     s.platform         = :ios, '12.1'
     s.static_framework = true
 
-    # Use the HTTP source to fetch the zipped package directly.
-    s.source           = { :http => '' }
-    s.vendored_frameworks = [
-      'libswscale.xcframework',
-      'libswresample.xcframework',
-      'libavutil.xcframework',
-      'libavformat.xcframework',
-      'libavfilter.xcframework',
-      'libavdevice.xcframework',
-      'libavcodec.xcframework',
-      'ffmpegkit.xcframework'
+    s.source           = { :http => 'https://github.com/remhesneb/ffmpeg-kit-ios-full-gpl/archive/refs/tags/latest.zip' }
+    s.ios.vendored_frameworks = [
+      'libs/libswscale.xcframework',
+      'libs/libswresample.xcframework',
+      'libs/libavutil.xcframework',
+      'libs/libavformat.xcframework',
+      'libs/libavfilter.xcframework',
+      'libs/libavdevice.xcframework',
+      'libs/libavcodec.xcframework',
+      'libs/ffmpegkit.xcframework'
     ]
   end
