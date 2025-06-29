@@ -8,4 +8,7 @@ Pod::Spec.new do |s|
     s.platform         = :ios, '12.1'
     s.static_framework = true
     s.source           = { :http => 'https://github.com/remhesneb/ffmpeg-kit-ios-full-gpl/archive/refs/tags/latest.zip' }
+    s.ios.vendored_frameworks = [
+      'libs/ffmpegkit.xcframework'
+    ]
   end
