@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'remhesneb-ffmpeg-kit-ios-full-gpl'
+    s.name             = 'ffmpeg-kit-ios-full-gpl'
     s.version          = '6.0'   # Must match what ffmpeg-kit-react-native expects.
     s.summary          = 'Custom full-gpl FFmpegKit iOS frameworks from remhesneb.'
     s.homepage         = 'https://github.com/remhesneb/ffmpeg-kit-ios-full-gpl'
