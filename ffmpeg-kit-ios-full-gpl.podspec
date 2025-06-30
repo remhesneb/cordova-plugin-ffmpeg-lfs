@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
     s.source           = { :http => 'https://github.com/remhesneb/ffmpeg-kit-ios-full-gpl/archive/refs/tags/latest.zip' }
     s.ios.vendored_frameworks = [
       'ffmpeg-kit-ios-full-gpl-latest/libs/libswscale.xcframework',
-      'libs/libswresample.xcframework',
-      'libs/libavutil.xcframework',
-      'libs/libavformat.xcframework',
-      'libs/libavfilter.xcframework',
-      'libs/libavdevice.xcframework',
-      'libs/libavcodec.xcframework',
-      'libs/ffmpegkit.xcframework'
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libswresample.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libavutil.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libavformat.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libavfilter.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libavdevice.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/libavcodec.xcframework',
+      'ffmpeg-kit-ios-full-gpl-latest/libs/ffmpegkit.xcframework'
     ]
   end
